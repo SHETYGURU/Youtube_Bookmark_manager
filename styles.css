@@ -1,0 +1,77 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Styling for the Save button */
+#saveBookmark {
+  background-color: #444;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#saveBookmark:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Styling for the bookmarks list */
+#bookmarkList li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#bookmarkList a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Styling for the delete button */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button img {
+  width: 16px;
+  height: 16px;
+}
+
+/* Width adjustment */
+#popup {
+  width: 400px;
+}
+
+#bookmarkList li {
+  width: 90%;
+}
+
+/* Image and heading styling */
+h1 {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+h1 .logo {
+  width: 24px; /* Adjust the size of the image */
+  height: 24px;
+  margin-right: 10px; /* Add space between the image and text */
+}

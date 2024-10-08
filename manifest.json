@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Bookmark Manager",
+  "version": "1.0",
+  "description": "A Chrome extension that allows users to bookmark YouTube videos and manage their saved timestamps effortlessly.",
+  "permissions": ["tabs", "storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "youtube.png",
+      "48": "youtube.png",
+      "128": "youtube.png"
+    }
+  },
+  "icons": {
+    "128": "youtube.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
