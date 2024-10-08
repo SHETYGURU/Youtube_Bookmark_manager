@@ -1,6 +1,6 @@
 # YouTube Bookmark Manager
 
-![YouTube Bookmark Manager Logo](youtube.png)
+
 
 ## Overview
 
